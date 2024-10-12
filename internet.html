@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet - The Evolution of Knowledge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        
+        .rounded-image {
+            border-radius: 20px;
+            transition: transform 0.3s;
+            width: 800px;
+            height: 500px;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .rounded-image:hover {
+            transform: scale(1.05);
+        }
+        
+        h2 {
+            color: #FF5733;
+        }
+        
+        p {
+            color: #333;
+            margin: 10px 0;
+            transition: color 0.3s;
+        }
+        
+        p:hover {
+            color: #FF5733;
+        }
+        
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .rounded-image {
+                width: 100%;
+                height: auto;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header style="background-image: url('background_img.png'); background-attachment: fixed;background-size: cover;">
+        <h1>The Evolution of Knowledge</h1>
+        <center><span style="color:white;" id="type1"></span></center>
+    </header>  
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">The Internet: A Revolutionary Invention</h2>
+        <img src="internet_inven.png" alt="Internet" class="img-fluid mb-4 rounded-image">
+
+        <p class="lead">The Internet, a vast network of interconnected computers, has transformed the way we communicate, access information, and conduct business. It began as a project funded by the U.S. Department of Defense in the 1960s, aimed at creating a robust communication network that could withstand failures.</p>
+
+        <h2 class="text-primary mt-4">Importance of the Internet</h2>
+        <p>The Internet has revolutionized every aspect of our lives, from social interactions to economic activities. It facilitates instant communication, enables the sharing of vast amounts of information, and supports e-commerce, education, and entertainment. The Internet has also given rise to social media, transforming how we connect and share experiences.</p>
+
+        <h2 class="text-primary mt-4">Historical Context</h2>
+        <p>The Internet's development began with ARPANET in the late 1960s, which connected several universities and research institutions. Over the years, it evolved into the World Wide Web, invented by Tim Berners-Lee in 1989. This marked a significant turning point, making the Internet accessible to the general public.</p>
+
+        <h2 class="text-primary mt-4">Impact on Society</h2>
+        <p>The Internet has had profound effects on society, influencing how we communicate, learn, and conduct business. It has democratized access to information, enabling individuals to educate themselves and participate in the global economy. However, it has also raised concerns about privacy, security, and the digital divide.</p>
+
+        <h2 class="text-primary mt-4">The Future of the Internet</h2>
+        <p>As technology continues to advance, the Internet is likely to evolve further. Innovations such as 5G, artificial intelligence, and the Internet of Things (IoT) are set to enhance connectivity and create new opportunities. However, challenges such as cybersecurity threats and the need for digital literacy will remain critical issues to address.</p>
+
+        <h2 class="text-center mt-4">Conclusion</h2>
+        <p>Understanding the significance of the Internet in shaping our world is crucial. As we move forward, it is essential to leverage its potential while being mindful of the challenges it presents.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p style="color:white;">&copy; 2024 The Evolution of Knowledge. All Rights Reserved.</p>
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/hari-vignesh-b-126806259/" target="blank"><i class="fab fa-linkedin"></i></i></a></li>
+                <li><a href="https://github.com/HariVignesh18" target="blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/harivignesh18/" target="blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('#type1', {
+          strings: ['A Journey Through Groundbreaking Discoveries'],
+          typeSpeed: 50,
+          backSpeed: 50,
+          loop: true
+        });
+    </script>
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
